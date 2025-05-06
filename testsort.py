@@ -21,3 +21,5 @@ products = [
 ]
 
 print(sorted_by_price(products))
+print("Salom vali")
+print(sort_by_name(products))
