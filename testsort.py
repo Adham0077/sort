@@ -3,8 +3,9 @@ def sorted_by_price(products: list) -> list:
 	products.sort(key=lambda x: int(x[1]),reverse=True)
 	return products
     
-
-
+def sort_by_name(products):
+	products.sort(key=lambda x: x[0])
+	return products
 
 products = [
     ('Olma', '12000', '50'),
