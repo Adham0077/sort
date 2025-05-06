@@ -7,6 +7,10 @@ def sort_by_name(products):
 	products.sort(key=lambda x: x[0])
 	return products
 
+def name(products):
+	products.sort()
+	return products
+
 products = [
     ('Olma', '12000', '50'),
     ('Banan', '8000', '100'),
@@ -23,3 +27,4 @@ products = [
 print(sorted_by_price(products))
 print("Salom vali")
 print(sort_by_name(products))
+print(name(products))
